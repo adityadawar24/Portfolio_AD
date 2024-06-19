@@ -58,16 +58,16 @@ export default function Banner() {
 
           <div className="w-full flex" data-aos="zoom-in" data-aos-delay="400">
             <button className="mt-5 w-auto px-4 h-10 lg:h-12 bg-[#141518] rounded-sm text-sm text-gray-400 tracking-wider hover:text-white hover:bg-designColor duration-300 flex gap-2 justify-center items-center">
-              <Link
+              <a
                 className="w-auto flex items-center gap-2"
-                to={resume}
+                href={resume}
                 download="Resume2024.pdf"
               >
                 <span className="text-2xl lg:text-2xl">
                   <IoMdCloudDownload />
                 </span>
                 Download Resume
-              </Link>
+              </a>
             </button>
           </div>
         </div>
