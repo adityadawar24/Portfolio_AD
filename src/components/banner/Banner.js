@@ -1,8 +1,5 @@
 import React from "react";
-import {
-  FaGithub,
-  FaLinkedinIn,
-} from "react-icons/fa";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { IoMdCloudDownload, IoMdMail, IoMdCall } from "react-icons/io";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import resume from "../../assets/documents/Resume2024.pdf";
@@ -54,7 +51,9 @@ export default function Banner() {
             A graduate from IIT Roorkee and a passionate frontend developer.
             With a keen eye for detail, I specialize in creating user-friendly
             and effective solutions that enhance application performance, ease
-            of maintenance, and user experience.
+            of maintenance, and user experience. Outside of coding, I enjoy
+            video editing, dancing, playing football, and skateboarding. These
+            interests keep me inspired and balanced.
           </p>
 
           <div className="w-full flex" data-aos="zoom-in" data-aos-delay="400">
@@ -165,14 +164,14 @@ export default function Banner() {
         className="w-full lgl:w-1/2 flex justify-center items-center relative rounded-lg"
         data-aos="zoom-in"
         data-aos-duration="1600"
-      > 
+      >
         <img
           className="w-[200px] lgl:w-[250px] h-auto z-10 rounded-3xl "
           src={PImg}
           alt="Aditya Dawar was here!"
         />
         {/* <div className="absolute bottom-0 w-[220px] h-[250px] lgl:w-[350px] lgl:h-[380px] shadow-shadowOne bg-gradient-to-r from-[#1e2024] to-[#202327] flex justify-center items-center"></div> */}
-       </div> 
+      </div>
     </section>
   );
 }
